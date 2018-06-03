@@ -1,0 +1,101 @@
+body {
+    background-color: #FFFFFF;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+    color: #FFFFFF
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.display {
+    background-color: #FFFFFF;
+    height: 100px;
+    word-wrap: break-word;
+}
+
+.mt-md-2 {
+    position: relative;
+}
+
+.h4 {
+    padding-right: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.control-panel {
+    margin: 32px 16px;
+}
+
+.control-panel > button {
+    background-color: #F2F2F2;
+}
+
+.calculator {
+    background-color: #EAEAEA;
+    padding: 0 10;
+}
+
+.keypad {
+    height: 400px;
+}
+
+.keypad-row {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.keypad-row > button {
+    font-size: 26px;
+    margin: 2px;
+    overflow: hidden;
+    height: 60px;
+    width: 100%;
+}
+
+.keypad-primary-btn {
+    background-color: #FBFBFB;
+    color: #20232A;
+    font-weight: bold;
+}
+
+.keypad-secondary-btn {
+    background-color: #F2F2F2;
+    color: #00ACC1;
+}
+
+
+.history {
+    background-color: #FFFFFF;
+    position: relative;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.history .history-item > button {
+    border-radius: 0;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.history .history-item > button:hover {
+    background-color: #B1F3F5;
+}
+
+.history-trash {
+    cursor: pointer;
+    left: 10px;
+    position: absolute;
+    top: 10px;
+}
